@@ -31,10 +31,10 @@
 #include <linux/types.h>
 #include <linux/usb.h>
 
-int rtl8180_save_state (struct pci_dev *dev, u32 state);
+//int rtl8180_save_state (struct pci_dev *dev, u32 state);
 int rtl8187_suspend  (struct usb_interface *intf,pm_message_t state);
 int rtl8187_resume (struct usb_interface *intf);
-int rtl8180_enable_wake (struct pci_dev *dev, u32 state, int enable);
+//int rtl8180_enable_wake (struct pci_dev *dev, u32 state, int enable);
 
 #endif
 
