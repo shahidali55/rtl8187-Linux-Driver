@@ -23,6 +23,13 @@
  * Jerry chuang <wlanfae@realtek.com>
 ******************************************************************************/
 
+void __aeabi_fadd(void){}
+void __aeabi_dadd(void){}
+void __aeabi_dsub(void){}
+void __aeabi_i2d(void){}
+void __aeabi_d2uiz(void){}
+void __aeabi_f2d(void){}
+
 #ifndef CONFIG_FORCE_HARD_FLOAT
 double __floatsidf (int i) { return i; }
 unsigned int __fixunsdfsi (double d) { return d; }
